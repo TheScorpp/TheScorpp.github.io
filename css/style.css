@@ -92,3 +92,43 @@ nav {
     background: #c9a227;
     color: black;
 }
+
+.page {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.page h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-section {
+    margin-bottom: 80px;
+}
+
+.about-section h2 {
+    color: #c9a227;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about-section p {
+    line-height: 1.9;
+    color: #dddddd;
+    font-size: 1.1rem;
+}
+
+.closing-quote {
+    margin-top: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #c9a227;
+    line-height: 1.7;
+}
