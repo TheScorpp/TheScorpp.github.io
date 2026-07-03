@@ -126,3 +126,18 @@ nav {
     line-height: 1.7;
 }
 
+.page h2 {
+    color: #c9a227;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.research-list {
+    line-height: 2;
+    color: #dddddd;
+    font-size: 1.1rem;
+}
+
+.research-list li {
+    margin-bottom: 10px;
+}
