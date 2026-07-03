@@ -125,7 +125,11 @@ nav {
     color: #c9a227;
     line-height: 1.7;
 }
-.about-page-bg {
+.about-page-bg::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
     background:
         linear-gradient(
             rgba(5,5,5,0.60),
@@ -136,5 +140,7 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    z-index: -2;
+    pointer-events: none;
 }
