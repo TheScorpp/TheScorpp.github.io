@@ -4,6 +4,8 @@ const ctx = canvas.getContext("2d");
 function resize() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
+    canvas.style.width = "100vw";
+    canvas.style.height = "100vh";
 }
 
 resize();
