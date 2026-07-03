@@ -8,12 +8,10 @@
 }
 body {
     margin: 0;
-    background: #050505;
     color: white;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -128,15 +126,15 @@ nav {
     line-height: 1.7;
 }
 .about-page-bg {
-    background-image:
+    background:
         linear-gradient(
-            rgba(5,5,5,0.55),
-            rgba(5,5,5,0.55)
+            rgba(5,5,5,0.60),
+            rgba(5,5,5,0.60)
         ),
-        url("/assets/shoulders.png") !important;
+        url("/assets/shoulders.png");
 
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
