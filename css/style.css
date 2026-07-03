@@ -110,14 +110,10 @@ nav {
 }
 
 .about-section {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
-.about-section h2 {
-    color: #c9a227;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
+
 
 .about-section p {
     line-height: 1.9;
