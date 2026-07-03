@@ -130,15 +130,15 @@ nav {
     line-height: 1.7;
 }
 
-.shoulders::before {
+.about-page::before {
     content: "";
     position: fixed;
     inset: 0;
 
     background:
         linear-gradient(
-            rgba(5,5,5,0.82),
-            rgba(5,5,5,0.82)
+            rgba(5, 5, 5, 0.75),
+            rgba(5, 5, 5, 0.75)
         ),
         url("../assets/shoulders.png");
 
