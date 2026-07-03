@@ -4,10 +4,8 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    background: #050505;
     display: block;
 }
-
 body {
     margin: 0;
     background: #050505;
@@ -130,8 +128,15 @@ nav {
     line-height: 1.7;
 }
 .about-page-bg {
-    background-image: url("/assets/shoulders.png") !important;
+    background-image:
+        linear-gradient(
+            rgba(5,5,5,0.55),
+            rgba(5,5,5,0.55)
+        ),
+        url("/assets/shoulders.png") !important;
+
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+    background-attachment: fixed;
 }
